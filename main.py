@@ -17,10 +17,10 @@ shweta_image = face_recognition.load_image_file("faces/shweta.jpg")      # add i
 shweta_encoding = face_recognition.face_encodings(shweta_image)[0]
 
 shruti_image = face_recognition.load_image_file("faces/shruti.jpg")       # add image path of person
-shruti_encoding = face_recognition.face_encodings(shweta_image)[0]
+shruti_encoding = face_recognition.face_encodings(shruti_image)[0]
 
 shubham_image = face_recognition.load_image_file("faces/shubham.jpg")      # add image path of person
-shubham_encoding = face_recognition.face_encodings(shweta_image)[0]
+shubham_encoding = face_recognition.face_encodings(shubham_image)[0]
 
 known_face_encodings = [deepali_encoding, jay_encoding, shweta_encoding]
 known_face_names = ["Deepali", "Jay", "Shweta", "Shruti", "Shubham"]
